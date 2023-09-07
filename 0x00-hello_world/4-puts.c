@@ -2,11 +2,11 @@
 
 /**
  *  * main - Entry point
- *  *
- *  * Description: A program that prints with puts function
- *  *
- *  * Return: Alawys 0 
- */
+ *   *
+ *    * Description: A C program that prints with put function
+ *     *
+ *      * Return: Alawys 0 (Success)
+ *      */
 
 int main(void)
 {
