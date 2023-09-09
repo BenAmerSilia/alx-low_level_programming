@@ -42,6 +42,6 @@ else
 printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 }
 }
-return 0;
+return (0);
 }
 
