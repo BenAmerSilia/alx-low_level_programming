@@ -8,41 +8,36 @@
  * Description: last digit of n
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
-int n , lastDigit;
+int n, lastDigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastDigit = n % 10;
-for (n > 0){
-if (lastDigit > 5)
-{
+    
+if (n > 0) {
+if (lastDigit > 5){
 printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 }
-else if ((n > 0) && (n<6))
+else if (lastDigit > 0 && lastDigit < 6)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 }
 else
 {
+printf("Last digit of %d is %d and is 0\n", n, lastDigit); 
+}
+}
+else if (n < 0) {
+if (lastDigit != 0) {
+printf("Last digit of %d is - %d and is less than 6 and not 0\n", n, abs(lastDigit)); 
+}
+else {
 printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 }
 }
-for (n < 0){
-if (lastDigit > 5)
-{
-printf("Last digit of %d is -%d and is greater than 5\n", n, lastDigit);
+return 0;
 }
-else if ((n > 0) && (n<6))
-{
-printf("Last digit of %d is -%d and is less than 6 and not 0\n", n, lastDigit);
-}
-else
-{
-printf("Last digit of %d is %d and is 0\n", n, lastDigit);
-}
-}
-return (0);
-}
+
