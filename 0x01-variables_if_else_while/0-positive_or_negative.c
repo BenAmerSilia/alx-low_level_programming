@@ -5,24 +5,28 @@
 /**
  * main - Entry point
  *
- * Description: A C program that assigns a random number to n in each execution, then print whether the number stored in n is positive or negative.
+ * Description: A C program that assigns a random number to n in each execution,
+ * then prints whether the number stored in n is positive or negative.
  *
- * Return: 0 
-*/
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-          int n;
-          srand(time(0));
-          n = rand() - RAND_MAX / 2;
-          if (n < 0){
-                    printf("%d is negative\n",n);
-          }
-          else if (n > 0){
-                    printf("%d is positive\n",n);
-          }
-          else{
-                    printf("%d is zero\n",n);
-          }
-          return 0;
+    int n;
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+    if (n < 0)
+    {
+        printf("%d is negative\n", n);
+    }
+    else if (n > 0)
+    {
+        printf("%d is positive\n", n);
+    }
+    else
+    {
+        printf("%d is zero\n", n);
+    }
+    return (0);
 }
