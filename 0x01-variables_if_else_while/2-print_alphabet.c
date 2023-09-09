@@ -4,7 +4,9 @@
 /**
  * main - Entry point
  *
- * Return: 0
+ * Description : print alphabet using putchar
+ *
+ * Return: Always  0 (Success)
  */
 int main(void)
 {
