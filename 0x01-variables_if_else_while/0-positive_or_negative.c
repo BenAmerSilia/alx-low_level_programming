@@ -5,8 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that assigns a random number to n in each execution,
- * then prints whether the number stored in n is positive or negative.
+ * Description: n is positive or negative
  *
  * Return: Always 0 (Success)
  */
