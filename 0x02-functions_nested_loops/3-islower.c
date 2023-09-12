@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - function
- * Description: task 3 0x02
- * Return: Nothing.
+ * _islower - function
+ * @c: input character
+ * Description: task 4 0x02
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
-
-void print_alphabet_x10(void)
+int _islower(int c)
 {
 char a;
-int b;
-for (b = 0; b < 10; b++)
-{
+int low = 0;
 for (a = 'a'; a <= 'z'; a++)
-_putchar(a);
-_putchar('\n');
+{
+if (a == c)
+low = 1;
 }
+return (low);
 }
