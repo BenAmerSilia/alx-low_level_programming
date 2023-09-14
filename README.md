@@ -1,1 +1,1 @@
-Readme for alx low level programming repo
+Debugging is a basic
