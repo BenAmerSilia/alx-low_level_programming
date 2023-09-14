@@ -1,1 +1,1 @@
-A lor of C and loops and debugging
+A lot of C and loops and debugging
