@@ -1,1 +1,1 @@
-Debugging is a basic
+A lor of C and loops and debugging
